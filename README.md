@@ -57,8 +57,9 @@ git clone https://github.com/lucyangelillo/Project-2-Wildfire-mapping.git
 pip install pandas geopandas folium
 ```
 4. Start JupyterLab or Jupyter Notebook.
+The Jupyter Notebook is stored without large outputs to keep the GitHub repository readable. The final interactive Folium map is exported as an HTML file in the `outputs/` folder and can be downloaded and opened locally in a browser.
 
-5. Open and run the notebook inside the `notebooks/` -> "Wildfire_mapping" folder from top to bottom.
+6. Open and run the notebook inside the `notebooks/` -> "Wildfire_mapping" folder from top to bottom.
 
 ## Execution Order
 
