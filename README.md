@@ -9,8 +9,9 @@ This project looks at global wildfire patterns using recent spatial data from NA
 ## Repository Structure
 
 ```text
-notebooks/   -> The Jupyter notebooks with the analysis and visualization
-outputs/     -> exported maps
+notebooks/   -> The Jupyter notebooks with the functioning code cells
+outputs/     -> exported maps 
+unfortunalty: Large interactive Folium map outputs are not rendered directly on GitHub because of file size limitations. The notebook remains fully reproducible by running the code locally.
 ```
 
 ## Data Sources
@@ -83,6 +84,7 @@ The project produces:
 - interactive wildfire maps with different amount of informations
 - spatial visualizations
 - wildfire distribution analysis
+
 
 ## Author
 
