@@ -60,7 +60,7 @@ pip install pandas geopandas folium
 
 5. Open and run the notebook inside the `notebooks/` -> "Wildfire_mapping" folder from top to bottom.
 
-## ## Execution Order
+## Execution Order
 
 1. Open the wildfire mapping notebook in the `notebooks/` folder.
 2. Run all notebook cells in order from top to bottom.
