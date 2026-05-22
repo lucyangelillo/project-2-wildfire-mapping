@@ -4,14 +4,13 @@ Interactive global wildfire mapping and analysis of NASA-Data using Python.
 
 ## Project Description
 
-This project looks at global wildfire patterns using recent spatial data from NASA FIRMS (2026) and interactive mapping methodes in Python. The goal is to visualize wildfire occurrence and explore the attributes: Brightness, FRQ and Confidence. With this information, the wildfires can be compared easily and quickly on a rather general overview level.
+This project looks at global wildfire patterns using recent spatial data from NASA FIRMS (2026) and interactive mapping methods in Python. The goal is to visualize wildfire occurrence and explore the attributes: Brightness, Frp and Confidence. With this information, the wildfires can be compared easily and quickly on a rather general overview level.
 
 ## Repository Structure
 
 ```text
 notebooks/   -> The Jupyter notebooks with the analysis and visualization
 outputs/     -> exported maps
-data/        -> raw input data (not uploaded to GitHub)
 ```
 
 ## Data Sources
@@ -39,7 +38,7 @@ Required Python libraries include:
 Install required libraries with:
 
 ```bash
-pip install ()
+pip install pandas geopandas folium
 ```
 
 ## Setup Instructions
@@ -47,7 +46,7 @@ pip install ()
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/YOURNAME/Project-2-Wildfire-mapping.git
+git clone https://github.com/lucyangelillo/Project-2-Wildfire-mapping.git
 ```
 
 2. Open the project folder.
@@ -55,11 +54,11 @@ git clone https://github.com/YOURNAME/Project-2-Wildfire-mapping.git
 3. Install the required packages:
 
 ```bash
-pip install ()
+pip install pandas geopandas folium
 ```
 4. Start JupyterLab or Jupyter Notebook.
 
-5. Run the wildfire mapping notebook.
+5. Open and run the notebook inside the `notebooks/` -> "Wildfire_mapping" folder from top to bottom.
 
 ## ## Execution Order
 
@@ -80,7 +79,7 @@ Final interactive maps are displayed directly inside the notebook.
 
 The project produces:
 
-- interactive wildfire maps with diffrent amount of informations
+- interactive wildfire maps with different amount of informations
 - spatial visualizations
 - wildfire distribution analysis
 
